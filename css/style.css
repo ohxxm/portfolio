@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap&family=Inter');
+
+:root {
+    --red: #f68689;
+    --blue: #79a6f6;
+    --green: #8fbf7f;
+    --yellow: #f0cf92;
+    --orange: #fca66f;
+    --purple: #c3a0f7;
+    --bg: #05070d;
+    --fg: #0f0f1f;
+    --fg-alt: #11121b;
+    --fg-alt-2: #0D1632;
+    --text: #babbcc;
+    --text-alt: #4F6ED7;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+img {
+    width: 10em;
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    padding: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.text {
+    padding: 1em;
+}
+
+.text h1 {
+    font-family: 'Bree Serif';
+    line-height: 1rem;
+}
+
+.text h3 {
+    font-family: 'Inter';
+    color: var(--text-alt);
+    width: 20rem;
+    overflow: hidden;
+}
+
+.text span {
+    color: var(--blue);
+    font-weight: bold;
+}
+
+.icon {
+    font-size: 4rem;
+    position: relative;
+}
+
+.icon-layout {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-7rem);
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Bree Serif';
+    color: var(--fg-alt-2);
+}
